@@ -1,38 +1,242 @@
-.App {
-  text-align: center;
+body {
+    overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.primary {
+    background: #FDC830;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.background {
+    background-image: url("../public/Ellipse\ 10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 191px;
+    z-index: 1 !important;
+    width: 813px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.background2 {
+    background-image: url("../public/Ellipse\ 9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    position: relative;
+    z-index: -2;
+    top: -62%;
+    right: -71%;
+    height: 372px;
+    width: 760px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.index {
+    z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+    color: whitesmoke;
+    background: #051D33;
+}
+
+.testmonilvieo {
+    background-color: #051D33;
+    color: white
+}
+
+.Ellipse_11 {
+    background-image: url("../public/Ellipse\ 11.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    top: 0px;
+    right: 0px;
+}
+
+.card1 {
+    position: relative;
+    right: 75px;
+    height: 233px;
+    top: 39px;
+    background: #53AFA4;
+}
+
+.card_border {
+    border: 9px solid orange;
+    position: relative;
+    right: 33px;
+    top: -69px
+}
+
+.about {
+    line-height: 36px;
+    font-weight: 400;
+
+}
+
+.Inputcolor {
+    background-color: #C4C4C447;
+    outline: none;
+}
+
+.linespace {
+    line-height: 46px;
+
+}
+
+.bubblevisonpink {
+    background-image: url("../public/Ellipse\ 11\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1316px;
+    width: 471px;
+    position: absolute;
+    top: 143%;
+    z-index: -1;
+
+}
+
+.bubblevisonyellow {
+    background-image: url("../public/Ellipse\ 12\(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1375px;
+    width: 513px;
+    position: absolute;
+    top: 253%;
+    right: -26%;
+    z-index: -1;
+
+}
+
+.bubblevisonyellow14 {
+    background-image: url("../public/Ellipse\ 14.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1303px;
+    width: 513px;
+    position: absolute;
+    top: 460%;
+    right: 63%;
+    z-index: -1;
+
+}
+
+.aboutbubblepink11 {
+    background-image: url("../public/Ellipse\ 11\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 943px;
+    width: 471px;
+    position: absolute;
+    top: 9%;
+    z-index: -1;
+}
+
+.aboutbubbleyello123 {
+    background-image: url("../public/Ellipse\ 12\(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 1104px;
+    width: 836px;
+    position: absolute;
+    top: 72%;
+    right: 0%;
+    /* right: 0%; */
+    z-index: -1;
+}
+
+.aboutbubbleyello1234 {
+    background-image: url("../public/Ellipse\ 12\(4\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1143px;
+    width: 568px;
+    position: absolute;
+    top: 67%;
+    right: -5%;
+    /* right: 0%; */
+    z-index: -1;
+}
+
+.aboutbubbleyello12345 {
+    background-image: url("../public/Ellipse\ 14\(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1075px;
+    width: 568px;
+    position: absolute;
+    top: 258%;
+    right: 58%;
+    z-index: -1;
+}
+
+.aboutbubbleyello123456 {
+    background-image: url("../public/Ellipse\ 13\(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1037px;
+    width: 784px;
+    position: absolute;
+    top: 305%;
+    right: -83px;
+    z-index: -1;
+}
+
+.bubbleblogspink13 {
+    background-image: url("../public/Ellipse\ 13.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1105px;
+    width: 916px;
+    position: absolute;
+    top: 511%;
+    right: -49%;
+    /* right: 0%; */
+    /* left: 0%; */
+    z-index: -1;
+}
+
+
+.bubbleblogspink {
+    background-image: url("../public/Ellipse\ 11.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    width: 900px;
+    position: absolute;
+    top: 100%;
+    /* right: 0%; */
+    left: 0px;
+    z-index: -1;
+}
+
+.bubbleblogsyellow {
+    background-image: url("../public/Ellipse\ 12.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    bottom: -80%;
+    /* right: 0%; */
+    right: -320px;
+}
+.bubblecontect{
+    background-image: url("../public/Ellipse\ 11\ \(4\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    bottom: -80%;
+    z-index: -1;
+        left: 0;
 }
